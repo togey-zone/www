@@ -1,0 +1,48 @@
+# Site settings
+title: TOGEY LIMITED
+tagline: Alone isn't Lonely
+description: >-
+  TOGEY LIMITED is a Hong Kong-registered company specializing in 
+  cross-border digital commerce and brand operations.
+baseurl: ""
+url: "https://togey.com"
+
+# Company info
+company:
+  name_en: TOGEY LIMITED
+  name_zh: 桃吉有限公司
+  founded: 2015
+  registration: Hong Kong SAR
+  email: contact@togey.com
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Minima theme settings
+minima:
+  skin: classic
+  date_format: "%Y-%m-%d"
+
+# Collections
+collections:
+  domains:
+    output: false
+  
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      lang: en
+      layout: default
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .github/

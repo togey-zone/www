@@ -1,0 +1,11 @@
+<div class="domain-card">
+  <h4>{{ include.title_en }} · {{ include.title_zh }}</h4>
+  <ul class="domain-list">
+    {% for domain in include.domains %}
+    <li class="domain-item {% if domain.status != 'active' %}domain-{{domain.status}}{% endif %}">
+      <span class="domain-url">{{ domain.url }}</span>
+      <span class="domain-desc">{{ domain.desc }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

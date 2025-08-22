@@ -1,0 +1,41 @@
+core_operations:
+  title_en: Core Operations
+  title_zh: 核心运营
+  domains:
+    - url: togey.com
+      desc: Global Portal
+      status: active
+    - url: togey.hk
+      desc: Hong Kong Operations
+      status: active
+    - url: togey.us
+      desc: North America Hub
+      status: active
+
+digital_products:
+  title_en: Digital Products
+  title_zh: 数字产品
+  domains:
+    - url: infatex.io
+      desc: Lifestyle Applications
+      status: active
+    - url: togey.ai
+      desc: Intelligence Platform
+      status: active
+    - url: togey.link
+      desc: Protocol Services
+      status: active
+
+innovation_labs:
+  title_en: Innovation Labs
+  title_zh: 创新实验室
+  domains:
+    - url: togey.org
+      desc: Open Standards
+      status: active
+    - url: togey.cloud
+      desc: Infrastructure
+      status: development
+    - url: togey.xyz
+      desc: Experimental Projects
+      status: planned
