@@ -1,11 +1,11 @@
 # Site settings
-title: TOGEY LIMITED
-tagline: Alone isn't Lonely
+title: TOGEY Zone
+tagline: A calmer front door for the TOGEY ecosystem
 description: >-
-  TOGEY LIMITED is a Hong Kong-registered company specializing in 
-  cross-border digital commerce and brand operations.
+  TOGEY Zone is the public portal for TOGEY LIMITED, mapping the company,
+  its domain matrix, and the staged rebuild of its digital product ecosystem.
 baseurl: ""
-url: "https://togey.com"
+url: "https://zone.togey.com"
 
 # Company info
 company:
